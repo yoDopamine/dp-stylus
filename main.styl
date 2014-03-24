@@ -1,17 +1,20 @@
-@import "base/variables"
-@import "helpers"
-@import "mixins/dopamine"
-//@import "base/reset"
 
 /* VARIABLES
 *************************************/
-// Refactored as base/variables
+@import "site/variables"
+
+
+/* DEFAULTS, HELPERS
+*************************************/
+@import "site/helpers"
+@import "site/reset"
+@import "mixins/dopamine"
 
 /* FONTS
 *************************************/
 
 @import "site/fonts"
-@import "base/icons"
+@import "site/icons"
 
 /* LAYOUT
 *************************************/
@@ -19,7 +22,7 @@
 @import "layout/layout-common"
 @import "layout/layout-header"
 @import "layout/layout-footer"
-@import "layout/layout-homepage"
+@import "layout/layout-index"
 @import "layout/layout-404"
 //LayoutInsertReference
 
@@ -27,16 +30,9 @@
 *************************************/
 @import "modules/m-dopamine"
 @import "modules/m-logo"
-@import "modules/m-langselector"
-@import "modules/m-spacer"
 @import "modules/m-button"
-@import "modules/m-content"
-@import "modules/m-contactform"
 //ModuleInsertReference
 
-
-/* DEFAULTS
-*************************************/
 
 
 /* DEBUG, OVERRIDES
