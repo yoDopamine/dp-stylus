@@ -5,4 +5,4 @@ Stylus extension for Dopamine
 
 #Install
 
-`yo dopamine:install`, then select `Stylus`
+`yo dp:install`, then select `Stylus`
